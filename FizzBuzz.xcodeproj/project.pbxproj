@@ -13,18 +13,10 @@
 		413A38931C11F1B20093E687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413A38921C11F1B20093E687 /* Assets.xcassets */; };
 		413A38961C11F1B20093E687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413A38941C11F1B20093E687 /* LaunchScreen.storyboard */; };
 		413A38A11C11F1B20093E687 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A38A01C11F1B20093E687 /* FizzBuzzTests.swift */; };
-		413A38AC1C11F1B20093E687 /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A38AB1C11F1B20093E687 /* FizzBuzzUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		413A389D1C11F1B20093E687 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 413A38801C11F1B20093E687 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 413A38871C11F1B20093E687;
-			remoteInfo = FizzBuzz;
-		};
-		413A38A81C11F1B20093E687 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 413A38801C11F1B20093E687 /* Project object */;
 			proxyType = 1;
@@ -44,9 +36,6 @@
 		413A389C1C11F1B20093E687 /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		413A38A01C11F1B20093E687 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
 		413A38A21C11F1B20093E687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		413A38A71C11F1B20093E687 /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		413A38AB1C11F1B20093E687 /* FizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITests.swift; sourceTree = "<group>"; };
-		413A38AD1C11F1B20093E687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +53,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		413A38A41C11F1B20093E687 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +61,6 @@
 			children = (
 				413A388A1C11F1B20093E687 /* FizzBuzz */,
 				413A389F1C11F1B20093E687 /* FizzBuzzTests */,
-				413A38AA1C11F1B20093E687 /* FizzBuzzUITests */,
 				413A38891C11F1B20093E687 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +70,6 @@
 			children = (
 				413A38881C11F1B20093E687 /* FizzBuzz.app */,
 				413A389C1C11F1B20093E687 /* FizzBuzzTests.xctest */,
-				413A38A71C11F1B20093E687 /* FizzBuzzUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,15 +94,6 @@
 				413A38A21C11F1B20093E687 /* Info.plist */,
 			);
 			path = FizzBuzzTests;
-			sourceTree = "<group>";
-		};
-		413A38AA1C11F1B20093E687 /* FizzBuzzUITests */ = {
-			isa = PBXGroup;
-			children = (
-				413A38AB1C11F1B20093E687 /* FizzBuzzUITests.swift */,
-				413A38AD1C11F1B20093E687 /* Info.plist */,
-			);
-			path = FizzBuzzUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,24 +134,6 @@
 			productReference = 413A389C1C11F1B20093E687 /* FizzBuzzTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		413A38A61C11F1B20093E687 /* FizzBuzzUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 413A38B61C11F1B20093E687 /* Build configuration list for PBXNativeTarget "FizzBuzzUITests" */;
-			buildPhases = (
-				413A38A31C11F1B20093E687 /* Sources */,
-				413A38A41C11F1B20093E687 /* Frameworks */,
-				413A38A51C11F1B20093E687 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				413A38A91C11F1B20093E687 /* PBXTargetDependency */,
-			);
-			name = FizzBuzzUITests;
-			productName = FizzBuzzUITests;
-			productReference = 413A38A71C11F1B20093E687 /* FizzBuzzUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,10 +148,6 @@
 						CreatedOnToolsVersion = 7.1.1;
 					};
 					413A389B1C11F1B20093E687 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 413A38871C11F1B20093E687;
-					};
-					413A38A61C11F1B20093E687 = {
 						CreatedOnToolsVersion = 7.1.1;
 						TestTargetID = 413A38871C11F1B20093E687;
 					};
@@ -219,7 +168,6 @@
 			targets = (
 				413A38871C11F1B20093E687 /* FizzBuzz */,
 				413A389B1C11F1B20093E687 /* FizzBuzzTests */,
-				413A38A61C11F1B20093E687 /* FizzBuzzUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,13 +184,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		413A389A1C11F1B20093E687 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		413A38A51C11F1B20093E687 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,14 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		413A38A31C11F1B20093E687 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				413A38AC1C11F1B20093E687 /* FizzBuzzUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -284,11 +217,6 @@
 			isa = PBXTargetDependency;
 			target = 413A38871C11F1B20093E687 /* FizzBuzz */;
 			targetProxy = 413A389D1C11F1B20093E687 /* PBXContainerItemProxy */;
-		};
-		413A38A91C11F1B20093E687 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 413A38871C11F1B20093E687 /* FizzBuzz */;
-			targetProxy = 413A38A81C11F1B20093E687 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -441,30 +369,6 @@
 			};
 			name = Release;
 		};
-		413A38B71C11F1B20093E687 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = FizzBuzzUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LM.FizzBuzzUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = FizzBuzz;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		413A38B81C11F1B20093E687 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = FizzBuzzUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LM.FizzBuzzUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = FizzBuzz;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -490,14 +394,6 @@
 			buildConfigurations = (
 				413A38B41C11F1B20093E687 /* Debug */,
 				413A38B51C11F1B20093E687 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		413A38B61C11F1B20093E687 /* Build configuration list for PBXNativeTarget "FizzBuzzUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				413A38B71C11F1B20093E687 /* Debug */,
-				413A38B81C11F1B20093E687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
